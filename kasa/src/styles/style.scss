@@ -1,0 +1,31 @@
+@import"./header";
+@import"./error";
+@import"./footer";
+@import"./about";
+@import "./banner";
+@import"./mainIndex";
+@import"./logement";
+
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 1300px) {
+
+    .header-container,
+    .banner,
+    .main-container {
+        padding: 0 20px;
+    }
+}
